@@ -28,13 +28,11 @@ app.post("/user", async (request, reply) => {
   return reply.status(201).send({ message: "User created" });
 });
 
-const PORT = process.env.PORT ? Number(process.env.PORT) : 4444;
-
 app
   .listen({
-    port: PORT,
     host: "0.0.0.0",
+    port: process.env.PORT ? Number(process.env.PORT) : 4444,
   })
   .then(() => {
-    console.log(`Server is running on ${PORT}`);
+    console.log(`Server is running! 🚀🚀🚀🚀`);
   });
