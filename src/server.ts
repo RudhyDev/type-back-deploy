@@ -29,9 +29,7 @@ app.post("/user", async (request, reply) => {
 });
 
 
-
 // console.log("process.env.DATABASE_URL: ",process.env.DATABASE_URL);
-
 
 app
   .listen({
