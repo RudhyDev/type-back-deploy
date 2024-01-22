@@ -1,6 +1,6 @@
-# Nome do Projeto
+# Fastify com Prisma e Deploy na Render
 
-Descrição do projeto
+Deploy simples de um servidor Node.js com Fastify e Prisma OSM na plataforma [Render](https://render.com/) 
 
 ## Requisitos
 
@@ -33,3 +33,5 @@ ISC
 ## Observações
 
 Ao executar o script `npm run dev`, será usada a flag `--env-file .env`. Esta flag permite que o Node.js leia as variáveis de ambiente do arquivo `.env` (funcionalidade está disponível para versões do Node.js 20.x ou superiores).
+
+O banco utilizado, dentro do servidor do Render, é o PostgreSQL. Para testes locais aconselho rodar uma imagem Docker desse banco, setar a env de acesso local e fazer os testes que achar necessário.
