@@ -32,4 +32,4 @@ ISC
 
 ## Observações
 
-Quando executamos o script `npm run dev`, usamos a flag `--env-file .env`. Esta flag permite que o Node.js leia as variáveis de ambiente do arquivo `.env`. Esta funcionalidade está disponível apenas para versões do Node.js 20.x ou superiores.
+Ao executar o script `npm run dev`, será usada a flag `--env-file .env`. Esta flag permite que o Node.js leia as variáveis de ambiente do arquivo `.env` (funcionalidade está disponível para versões do Node.js 20.x ou superiores).
