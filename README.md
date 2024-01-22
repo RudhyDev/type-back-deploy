@@ -1,6 +1,6 @@
 # Fastify com Prisma e Deploy na Render
 
-Deploy simples de um servidor Node.js com Fastify e Prisma OSM na plataforma [Render](https://render.com/) 
+Servidor Node.js simples com Fastify e Prisma ORM prepadaros para deploy na plataforma [Render](https://render.com/)
 
 ## Requisitos
 
